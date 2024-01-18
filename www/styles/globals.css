@@ -1,0 +1,16 @@
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom global styles */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* You could specify a fallback font family in case Inter is not available */
+body {
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+/* Any other global styles or resets you need can go here */

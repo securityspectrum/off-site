@@ -51,9 +51,9 @@ const Footer: React.FC = () => {
           <p className="text-sm text-gray-300">
             &copy; 2024 Security Spectrum. All rights reserved.
           </p>
-          {/* <div className="text-xs text-gray-600 version-info">
-            version: {process.env.NEXT_PUBLIC_VERSION}
-          </div> */}
+          <div className="text-xs text-gray-600 version-info">
+            version: 1.0.0
+          </div>
           {/* <div className="text-xs text-gray-600 version-info"> */}
            {/* {process.env.NEXT_PUBLIC_COMMIT_DATE} */}
           {/* </div> */}
